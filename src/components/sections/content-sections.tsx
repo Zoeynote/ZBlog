@@ -10,6 +10,16 @@ import { Reveal } from "@/components/ui/reveal";
 import type { PortfolioData } from "@/lib/types";
 import { profilePosts, type ProfileCategory } from "@/data/profileContent";
 type Language = "en" | "zh";
+type CapabilityBubbleTone = "content" | "growth" | "tools" | "design" | "language" | "evolving";
+type CapabilityBubble = {
+  label: string;
+  tone: CapabilityBubbleTone;
+  size: number;
+  x: number;
+  y: number;
+  lead?: boolean;
+  tip?: string;
+};
 
 export function InfoSection({ site }: { site: PortfolioData["site"] }) {
   return (
@@ -863,6 +873,7 @@ export function AboutContentSection({
     }
   } as const;
   const t = i18n[language];
+  const bubbles = t.bubbles as readonly CapabilityBubble[];
 
   return (
     <section id="about-content" className="space-y-12 py-14">
@@ -897,7 +908,7 @@ export function AboutContentSection({
             <h3 className="text-xl font-semibold tracking-wide text-slate-900 dark:text-slate-100">{t.capabilityTitle}</h3>
           </div>
           <div className="relative min-h-[620px] overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 p-16 shadow-[0_4px_20px_rgba(0,0,0,0.04)] dark:border-white/10 dark:bg-slate-900/35 dark:shadow-none">
-            {t.bubbles.map((bubble, idx) => (
+            {bubbles.map((bubble, idx) => (
               (() => {
                 const isContent =
                   bubble.label === "Topic Planning" ||
