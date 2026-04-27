@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root,
+.light {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --bg-card: #ffffff;
+  --border-color: #e5e7eb;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --accent: linear-gradient(90deg, #38bdf8, #8b5cf6);
+}
+
+.dark {
+  --bg-primary: #0b0f1a;
+  --bg-secondary: #111827;
+  --bg-card: rgba(15, 23, 42, 0.54);
+  --border-color: rgba(255, 255, 255, 0.1);
+  --text-primary: #e2e8f0;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --accent: linear-gradient(90deg, #38bdf8, #8b5cf6);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background: radial-gradient(circle at 88% 18%, rgba(56, 189, 248, 0.09), transparent 36%),
+    radial-gradient(circle at 94% 42%, rgba(99, 102, 241, 0.08), transparent 34%),
+    var(--bg-primary);
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.08;
+  background-image: radial-gradient(rgba(148, 163, 184, 0.45) 0.5px, transparent 0.5px);
+  background-size: 3px 3px;
+}
+
+.glass {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.dark body::before {
+  background: radial-gradient(circle at 88% 18%, rgba(99, 102, 241, 0.22), transparent 34%),
+    radial-gradient(circle at 95% 42%, rgba(139, 92, 246, 0.16), transparent 30%),
+    radial-gradient(circle at 84% 68%, rgba(34, 211, 238, 0.12), transparent 28%),
+    var(--bg-primary);
+}
+
+.dark body::after {
+  opacity: 0.18;
+  background-image: radial-gradient(rgba(148, 163, 184, 0.6) 0.5px, transparent 0.5px);
+}
+
+@keyframes timelineFlow {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+@keyframes bubbleFloat {
+  0% {
+    transform: translate(-50%, -50%) translateY(0);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateY(-6px);
+  }
+  100% {
+    transform: translate(-50%, -50%) translateY(0);
+  }
+}

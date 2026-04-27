@@ -1,0 +1,22 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M64 22L90 37V69L80 75V43L64 34L48 43V75L38 69V37L64 22Z"
+    fill="#0E5BFF"
+  />
+  <path
+    d="M64 34L74 40V58L64 64L54 58V40L64 34Z"
+    fill="#0E5BFF"
+  />
+  <path
+    d="M80 43L90 37V69L80 75V43Z"
+    fill="#0A47CC"
+  />
+  <path
+    d="M38 37L48 43V75L38 69V37Z"
+    fill="#0A47CC"
+  />
+  <path
+    d="M58 58L64 64L70 58V40L64 44L58 40V58Z"
+    fill="#081A3D"
+  />
+</svg>

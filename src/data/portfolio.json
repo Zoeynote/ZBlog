@@ -1,0 +1,151 @@
+{
+  "site": {
+    "name": "Zoey",
+    "role": "Content & Growth Operator | Crypto Research",
+    "tagline": "Turning information into influence.",
+    "email": "z0103390@gmail.com",
+    "telegram": "@zoeyzz0",
+    "focus": "Crypto Research / Content / Growth",
+    "yearsOfExp": "5+ years",
+    "socials": [
+      { "label": "GitHub", "href": "https://github.com/" },
+      { "label": "X", "href": "https://x.com/" },
+      { "label": "LinkedIn", "href": "https://linkedin.com/" }
+    ]
+  },
+  "experience": [
+    {
+      "company": "Binance",
+      "title": "Content & Growth Operator",
+      "period": "Feb 2025 - Nov 2025",
+      "bullets": [
+        "Managed an RSS-based news pipeline with prompt design and source whitelists/blacklists, publishing 550-670 EN and 610-850 ZH pieces weekly.",
+        "Curated daily market updates and homepage topic priorities, refreshing 36-55 topics weekly with the data team to improve relevance and presentation.",
+        "Researched and interviewed trending Web3 projects, producing 1-2 original features per week.",
+        "Led News distribution BD partnerships across RSS channels and Telegram bots, evaluating audience fit and channel scale to secure measurable exposure.",
+        "Partnered with the SEO team on long-tail keyword strategy, headline optimization, and multilingual localization to improve Google visibility and user growth."
+      ]
+    },
+    {
+      "company": "ChainFeeds",
+      "title": "Content Editor",
+      "period": "Feb 2022 - Jan 2025",
+      "bullets": [
+        "Curated selected content for homepage highlights, independently publishing 8-10 featured pieces daily with headline rewrites and key takeaway extraction.",
+        "Planned and wrote original thematic and partnership content, with single pieces driving 30+ new subscribers on the official Substack.",
+        "Produced official ETHShanghai2024 campaign copy, including warm-up posts, speaker announcements, agenda highlights, and event recaps.",
+        "Operated multi-channel community distribution on X, Telegram, and WeChat, amplifying market narratives and original research content.",
+        "Maintained and optimized the official Substack channel structure and growth settings, scaling total subscribers to 8,000+."
+      ]
+    },
+    {
+      "company": "ChainNews",
+      "title": "Content Operator",
+      "period": "Mar 2021 - Dec 2021",
+      "bullets": [
+        "微信公众号内容更新与分发，每周编辑排版并发布文章，分发至 17 个自有社群及头条、币乎、腾讯等外部渠道，单篇阅读量稳定 4000+，并保证公众号关注量每月增长。",
+        "输出系列化原创内容，策划并撰写 NFT 周报、下周前瞻、一图读懂等栏目，以及 Mask、CryptoPunks 等生态盘点内容。",
+        "首页内容策展，筛选优质文章进行二次编辑与摘要提炼，保持每日 15+ 篇首页更新频率。",
+        "维护专栏体系，审核新专栏入驻并维护已有专栏信息，根据更新频率与内容热度动态调整首页展示。",
+        "通过活动驱动增长，将热点内容转化为图文用于 Twitter 与 Telegram 推广，并通过领取 SBT 的活动实现电报群从 0 到 4000+ 粉丝增长。"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "category": "项目",
+      "title": "ERC-5169 和 TokenScript 为何需要 Smart Layer？",
+      "summary": "以代币为中心的架构如何带来 Web3 结构演变？",
+      "description": "以代币为中心的架构如何带来 Web3 结构演变？",
+      "tags": ["中间件", "空投", "项目介绍"],
+      "link": "https://chainfeeds.substack.com/p/erc-5169-tokenscript-smart-layer"
+    },
+    {
+      "category": "项目",
+      "title": "解密 RISC Zero 产品矩阵：如何助力以太坊迈向 ZK 化未来？",
+      "summary": "近日，RISC Zero zkVM 发布了 1.2 版本，引入了一种全新的预编译方式，允许开发者将预编译逻辑与应用程序一起部署，而无需内置于 zkVM 本身。",
+      "description": "近日，RISC Zero zkVM 发布了 1.2 版本，引入了一种全新的预编译方式，允许开发者将预编译逻辑与应用程序一起部署，而无需内置于 zkVM 本身。",
+      "tags": ["ZK", "项目介绍", "zkVM"],
+      "link": "https://chainfeeds.substack.com/p/risc-zero-zk"
+    },
+    {
+      "category": "项目",
+      "title": "加密经济实验 Orb Land：600% 哈伯格税能否实现个人咨询服务？",
+      "summary": "你愿意支付多少 ETH 以向 Taproot Wizards 发起人 Eric Wall 咨询一个问题？",
+      "description": "你愿意支付多少 ETH 以向 Taproot Wizards 发起人 Eric Wall 咨询一个问题？",
+      "tags": ["NFT", "加密经济", "项目介绍"],
+      "link": "https://chainfeeds.substack.com/p/orb-land600"
+    },
+    {
+      "category": "项目",
+      "title": "从 LRT 协议到去中心化基础设施供应商：Puffer 如何对齐以太坊生态？",
+      "summary": "Puffer 在设计和产品演进中始终践行了与以太坊一致的原则，并展现了对以太坊长期愿景的支持。",
+      "description": "Puffer 在设计和产品演进中始终践行了与以太坊一致的原则，并展现了对以太坊长期愿景的支持。",
+      "tags": ["LRT", "DeFi", "项目介绍"],
+      "link": "https://chainfeeds.substack.com/p/lrt-puffer"
+    },
+    {
+      "category": "项目",
+      "title": "重返初心：CKB 转向比特币 Layer2 赛道，炒作还是机遇？",
+      "summary": "CKB 的过去、现在和未来",
+      "description": "CKB 的过去、现在和未来",
+      "tags": ["比特币", "Layer2", "项目介绍"],
+      "link": "https://chainfeeds.substack.com/p/ckb-layer2"
+    },
+    {
+      "category": "项目",
+      "title": "Symbiotic 架构简析：灵活且无需许可的 Thin Coordination Layer",
+      "summary": "获 Lido 和 Paradigm 支持，Symbiotic 能否打破 EigenLayer 一家独大的局面？",
+      "description": "获 Lido 和 Paradigm 支持，Symbiotic 能否打破 EigenLayer 一家独大的局面？",
+      "tags": ["Symbiotic", "DeFi", "项目介绍"],
+      "link": "https://chainfeeds.substack.com/p/symbiotic-thin-coordination-layer"
+    },
+    {
+      "category": "项目",
+      "title": "The Graph 如何扩展为 AI 驱动的 Web3 基础设施？",
+      "summary": "如何让 dApp 更易于集成 AI 技术？",
+      "description": "如何让 dApp 更易于集成 AI 技术？",
+      "tags": ["AI", "基础设施", "项目介绍"],
+      "link": "https://chainfeeds.substack.com/p/the-graph-ai-web3"
+    },
+    {
+      "category": "项目",
+      "title": "致力于成为最高效执行层，Fuel 做对了哪些事情？",
+      "summary": "Fuel 专注于避免状态增长，并且不局限于任何一种配置，无论是主权 Rollup、结算链还是单体链。",
+      "description": "Fuel 专注于避免状态增长，并且不局限于任何一种配置，无论是主权 Rollup、结算链还是单体链。",
+      "tags": ["Rollup", "执行层", "项目介绍"],
+      "link": "https://mp.weixin.qq.com/s/zdNt_a2iNeJqDuLhDrP0Zg"
+    }
+  ],
+  "education": [
+    {
+      "school": "National University of Singapore",
+      "degree": "B.Sc. in Computer Science",
+      "period": "2015 - 2019"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Research",
+      "items": ["Market Narrative Mapping", "Protocol Analysis", "Competitor Research"]
+    },
+    {
+      "category": "Writing",
+      "items": ["Long-form Content", "Technical Storytelling", "SEO Strategy"]
+    },
+    {
+      "category": "Data",
+      "items": ["Dashboard Design", "Experiment Analysis", "Funnel Metrics"]
+    },
+    {
+      "category": "Crypto",
+      "items": ["Tokenomics Basics", "Wallet UX", "On-chain Tooling"]
+    }
+  ],
+  "portfolio": [
+    { "title": "DeFi Landing Redesign", "image": "/placeholder-1.svg", "description": "A high-conversion hero revamp for DeFi campaign." },
+    { "title": "Wallet Onboarding Flow", "image": "/placeholder-2.svg", "description": "Frictionless onboarding UX for first-time wallet users." },
+    { "title": "Protocol Analytics UI", "image": "/placeholder-3.svg", "description": "A clean metrics console for protocol operators." },
+    { "title": "Creator Hub", "image": "/placeholder-4.svg", "description": "A modular creator profile with token utility layers." }
+  ]
+}
